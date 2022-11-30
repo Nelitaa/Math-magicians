@@ -11,7 +11,7 @@
   height: 6vh;
 }
 
-.calculator-result{
+.calculator-result {
   display: flex;
   justify-content: flex-end;
   color: #fff;
