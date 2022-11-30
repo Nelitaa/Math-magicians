@@ -118,7 +118,7 @@ npm install
 
 To run the project, execute the following command:
 
-git checkout setup
+git checkout components
 npm start
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -139,7 +139,6 @@ npm start
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Components]**
 - [ ] **[Events]**
 - [ ] **[Refactor_with_hooks]**
 - [ ] **[Full_website]**
