@@ -1,5 +1,5 @@
 import './App.css';
-import MyCalculator from './components/Calculator.js';
+import MyCalculator from './components/Calculator';
 
 function App() {
   return (
