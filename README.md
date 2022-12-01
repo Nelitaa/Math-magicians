@@ -27,8 +27,6 @@ After you're finished please remove all the comments and instructions!
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
-
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -104,22 +102,28 @@ node.js
 
 Clone this repository to your desired folder:
 
+```sh
 cd my-folder
 git clone git@github.com:Nelitaa/Math-magicians.git
+```
 
 ### Install
 
 Install this project with:
 
+```sh
 cd Math-magicians
 npm install
+```
 
 ### Usage
 
 To run the project, execute the following command:
 
-git checkout components
+```sh
+git checkout events
 npm start
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -139,7 +143,6 @@ npm start
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Events]**
 - [ ] **[Refactor_with_hooks]**
 - [ ] **[Full_website]**
 - [ ] **[Tests]**
@@ -176,6 +179,6 @@ I would like to thank Microverse.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
