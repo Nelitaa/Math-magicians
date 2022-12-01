@@ -105,6 +105,7 @@ node.js
 Clone this repository to your desired folder:
 
 cd my-folder
+
 git clone git@github.com:Nelitaa/Math-magicians.git
 
 ### Install
@@ -112,13 +113,15 @@ git clone git@github.com:Nelitaa/Math-magicians.git
 Install this project with:
 
 cd Math-magicians
+
 npm install
 
 ### Usage
 
 To run the project, execute the following command:
 
-git checkout components
+git checkout events
+
 npm start
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -139,7 +142,6 @@ npm start
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Events]**
 - [ ] **[Refactor_with_hooks]**
 - [ ] **[Full_website]**
 - [ ] **[Tests]**
