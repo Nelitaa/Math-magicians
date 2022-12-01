@@ -24,10 +24,40 @@
   width: 25vw;
   height: 6vh;
   font-size: smaller;
+  cursor: pointer;
+}
+
+.input-button:hover {
+  background-color: #f5a623;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.input-button:focus {
+  background-color: #f5a623;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
 }
 
 .background-orange {
   background-color: #f5a623;
+  color: #fff;
+}
+
+.background-orange:hover {
+  background-color: #88929d2a;
+  color: #000;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.background-orange:focus {
+  background-color: #88929d2a;
+  color: #000;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
 }
 
 .two-space-width {
