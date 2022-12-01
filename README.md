@@ -121,7 +121,7 @@ npm install
 To run the project, execute the following command:
 
 ```sh
-git checkout events
+git checkout refactor_with_hooks
 npm start
 ```
 
@@ -143,7 +143,6 @@ npm start
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Refactor_with_hooks]**
 - [ ] **[Full_website]**
 - [ ] **[Tests]**
 
