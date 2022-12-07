@@ -56,15 +56,27 @@ describe('tests for Big.js', () => {
 
 describe('tests for second number equal to 0', () => {
   test('throws an error for division by 0', () => {
-    expect(operate(1, 0, '÷')).toBe("Can't divide by 0.");
+    try {
+      operate(1, 0, '÷');
+    } catch (error) {
+      expect(error.message).toBe("Can't divide by 0.");
+    }
   });
   test('throws an error for modulo by 0', () => {
-    expect(operate(1, 0, '%')).toBe("Can't find modulo as can't divide by 0.");
+    try {
+      operate(1, 0, '%');
+    } catch (error) {
+      expect(error.message).toBe("Can't find modulo as can't divide by 0.");
+    }
   });
 });
 
 describe('tests for unknown operation', () => {
   test('throws an error for unknown operation', () => {
-    expect(() => operate(1, 2, 'a')).toThrowError("Unknown operation 'a'");
+    try {
+      operate(1, 2, 'a');
+    } catch (error) {
+      expect(error.message).toBe("Unknown operation 'a'");
+    }
   });
 });
