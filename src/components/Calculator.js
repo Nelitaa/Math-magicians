@@ -16,32 +16,35 @@ const MyCalculator = () => {
   const result = next || total || '0';
 
   return (
-    <div className="calculator-container">
-      <div className="calculator-display">
-        <span className="calculator-result">{result}</span>
+    <section className="calculator-section">
+      <h2>Lets do some math!</h2>
+      <div className="calculator-container">
+        <div className="calculator-display">
+          <span className="calculator-result">{result}</span>
+        </div>
+        <div className="calculator-keypad">
+          <button type="button" onClick={handleClick} className="input-button">AC</button>
+          <button type="button" onClick={handleClick} className="input-button">+/-</button>
+          <button type="button" onClick={handleClick} className="input-button">%</button>
+          <button type="button" onClick={handleClick} className="input-button background-second">÷</button>
+          <button type="button" onClick={handleClick} className="input-button">7</button>
+          <button type="button" onClick={handleClick} className="input-button">8</button>
+          <button type="button" onClick={handleClick} className="input-button">9</button>
+          <button type="button" onClick={handleClick} className="input-button background-second">x</button>
+          <button type="button" onClick={handleClick} className="input-button">4</button>
+          <button type="button" onClick={handleClick} className="input-button">5</button>
+          <button type="button" onClick={handleClick} className="input-button">6</button>
+          <button type="button" onClick={handleClick} className="input-button background-second">-</button>
+          <button type="button" onClick={handleClick} className="input-button">1</button>
+          <button type="button" onClick={handleClick} className="input-button">2</button>
+          <button type="button" onClick={handleClick} className="input-button">3</button>
+          <button type="button" onClick={handleClick} className="input-button background-second">+</button>
+          <button type="button" onClick={handleClick} className="input-button two-space-width">.</button>
+          <button type="button" onClick={handleClick} className="input-button">0</button>
+          <button type="button" onClick={handleClick} className="input-button background-second">=</button>
+        </div>
       </div>
-      <div className="calculator-keypad">
-        <button type="button" onClick={handleClick} className="input-button">AC</button>
-        <button type="button" onClick={handleClick} className="input-button">+/-</button>
-        <button type="button" onClick={handleClick} className="input-button">%</button>
-        <button type="button" onClick={handleClick} className="input-button background-orange">÷</button>
-        <button type="button" onClick={handleClick} className="input-button">7</button>
-        <button type="button" onClick={handleClick} className="input-button">8</button>
-        <button type="button" onClick={handleClick} className="input-button">9</button>
-        <button type="button" onClick={handleClick} className="input-button background-orange">x</button>
-        <button type="button" onClick={handleClick} className="input-button">4</button>
-        <button type="button" onClick={handleClick} className="input-button">5</button>
-        <button type="button" onClick={handleClick} className="input-button">6</button>
-        <button type="button" onClick={handleClick} className="input-button background-orange">-</button>
-        <button type="button" onClick={handleClick} className="input-button">1</button>
-        <button type="button" onClick={handleClick} className="input-button">2</button>
-        <button type="button" onClick={handleClick} className="input-button">3</button>
-        <button type="button" onClick={handleClick} className="input-button background-orange">+</button>
-        <button type="button" onClick={handleClick} className="input-button two-space-width">.</button>
-        <button type="button" onClick={handleClick} className="input-button">0</button>
-        <button type="button" onClick={handleClick} className="input-button background-orange">=</button>
-      </div>
-    </div>
+    </section>
   );
 };
 
