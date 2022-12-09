@@ -20,7 +20,6 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -52,7 +51,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://math-magicians-zjk7.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,12 +109,6 @@ To run tests, run the following command:
 - GitHub: [@Nelitaa](https://github.com/Nelitaa)
 - Twitter: [@MarianelaMunoz\_](https://twitter.com/MarianelaMunoz_)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/marianela-muñoz-gutierrez/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **[Deploy]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
