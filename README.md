@@ -12,7 +12,6 @@
   - [Usage](#usage)
   - [Run tests](#run-tests)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -35,8 +34,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Single page application(SPA)**
-- **Create React App(CRA)**
+- Single page application(SPA)
+- Create React App(CRA)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -54,7 +53,7 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
--node.js
+- node.js
 
 ### Setup
 
