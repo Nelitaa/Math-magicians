@@ -1,12 +1,3 @@
-<a name="readme-top"></a>
-
-<div align="center">
-
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-</div>
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -27,9 +18,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [Math_magicians] <a name="about-project"></a>
+# 📖 Math Magicians <a name="about-project"></a>
 
-**[Math magicians]** is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.
+**Math Magicians** is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -44,8 +35,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Single_page_application(SPA)]**
-- **[Create_React_App(CRA)]**
+- **Single page application(SPA)**
+- **Create React App(CRA)**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -63,7 +54,7 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-node.js
+-node.js
 
 ### Setup
 
@@ -88,7 +79,6 @@ npm install
 To run the project, execute the following command:
 
 ```sh
-git checkout tests
 npm start
 ```
 
